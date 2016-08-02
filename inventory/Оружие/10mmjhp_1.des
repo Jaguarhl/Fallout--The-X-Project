@@ -1,0 +1,7 @@
+[Main]
+Type=4
+Title=10 мм п/об
+Description=Вид боеприпасов. Калибр: 10 мм, полуоболочечные.
+Cost=5
+Ammo=10
+Bonus=0

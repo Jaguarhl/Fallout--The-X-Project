@@ -1,0 +1,135 @@
+ ZAR image format.				Author:		ABel [TeamX]
+===================				Last revision:	16 Jan 2001
+
+
+   This document is an attempt to describe the structure of ZAR images
+(image files in "Fallout Tactics: Brotherhood of Steel" game).
+
+
+   The ZAR format is the property of Interplay as stated in the "Fallout
+Tactics" readme file.
+
+   Note: this document introduces some terms, which are quoted through the
+document. The author does not pretend these terms are accurate or adequate.
+
+   One more note: the purpose of several fields is unknown, so some
+suppositions on their meaning are made, but neither can they be proved nor
+rejected by the author at the time of writing the document. Such hypotheses
+are marked with '(???)'.
+
+
+	I. Main features
+1. The zar-image can be "stand-alone" and "embedded". I.e., it can be a
+   single file (*.zar) or a part of some larger file (included into a Tile
+(*.til) or a Sprite (*.spr)).
+   Class of "Embedded" ZARs can be subdivided into "complete" or
+"incomplete".
+   "Complete" ZAR contains all the information necessary for its displaying,
+though the enclosing file can provide some additional fields changing the
+way the image is showed.
+   "Incomplete" images do not have they own palettes (such ZARs can be
+observed in the Sprites). The color information is taken from the enclosing
+entity's palette.
+
+2. The format uses the palette to store the color information. The palette
+   entries are RGBA quadruples, besides the usual 256-level RGB there is an
+alpha- (or transparency-) channel, which is used to display shadows or
+anti-aliased images against any background. The alpha is also 256-leveled,
+where 255 stands for full opacity and 0 means full transparency.
+
+3. The format uses a kind of RLE compression (though the term RLE is not
+   quite adequate here). Pixel information is stored in blocks consiting of
+a header and pixel data bytes (optionally).
+
+
+	II. Format specification
+   This specification uses C-like constructions and expressions along with
+two self-explanatory pseudo-keywords: 'optional' and 'variable_length'.
+   The following types are used:
+CHAR	one byte integer (unsigned char in C)
+DWORD	four bytes integer (unsigned long in C).
+
+ZAR_IMAGE ::= variable_length struct {
+	ZAR_HEADER image_header;
+	optional ZAR_PALETTE palette;
+	DWORD data_length;
+	variable_length union {
+		CHAR image_data[data_length];
+		RLE_BLOCK blocks[];
+	}
+}
+ZAR_HEADER ::= struct {
+	CHAR signature[6];	// zar-image signature, must be '<zar>\0'
+	CHAR zar_type;		// must be 0x33 or 0x34
+	CHAR dummy1;		// nothing (???)
+	DWORD image_width, image_heigth;
+	CHAR palette_present_flag;
+}
+
+If palette_present_flag is 0x01 then zar_image includes a palette.
+ZAR_PALETTE ::= variable_length struct {
+	DWORD color_count;	// count of color entries in the palette;
+				// less than or equals to 256 (???)
+	PAL_ENTRY colors[color_count];	// color entries
+	optional CHAR default_color;	// index of default (or background)
+					// color (???); the field is
+					// included only when the zar_type
+					// is 0x34.
+}
+PAL_ENTRY ::= struct {
+	CHAR blue, green, red, alpha;
+}
+
+RLE_BLOCK ::= variable_length struct {
+	CHAR rle_command : 2;	// command (two bits)
+	CHAR block_length : 6;	// data length (six bits)
+	CHAR pixel_data[];	// pixel information; the length of this
+				// item can be zero, block_length or
+				// twice the block_length, depending on
+				// the value of rle_command.
+}
+
+
+	III. Decompression scheme
+   Pixel data is RLEncoded in the blocks of type RLE_BLOCK (or in the
+image_data array - they are the same things).
+   The decompression starts from the top left corner of the image and stops
+when all the image_data array is processed or when the all the image_height
+scan lines are rendered, whichever happens first. The processing is carried
+out from left to right in the horizontal direction. On reaching of the right
+border (image_width field) the processing is switched to the start of
+the next scanline of the image.
+   Every block determines the color of the block_length consecutive pixels.
+The following table describes the treatment of pixel_data array and the
+color values of the next block_length image pixels depending on the
+rle_command used in a block.
+
+ rle_command | pixel_data           | image pixels
+-------------+----------------------+---------------------------------------
+ 0           | no data at all;      | next block_length pixels are filled
+             | zero length          | with 00:00:00:00 (R:G:B:A) color, or
+             |                      | simply skipped
+-------------+----------------------+---------------------------------------
+ 1           | CHAR color_inds[b_l] | pixel color (RGB) is taken from the
+             |                      | respective palette entries, the
+             |                      | alpha-value (A) is set to 0xFF
+-------------+----------------------+---------------------------------------
+ 2           | { CHAR color_ind;    | pixel's RGBA is specified by the pair
+             |   CHAR alpha_val;}   | from pixel_data array
+             | pairs[b_l]           |
+-------------+----------------------+---------------------------------------
+ 3           | CHAR alpha_vals[b_l] | pixel's color (RGB) is set to the RGB
+             |                      | value from colors[0] or may be from
+             |                      | colors[default_color] (???),
+             |                      | the alpha value is taken from the
+             |                      | pixel_data array
+
+   (???) The block cannot span multiple scanlines. If the block defines more
+pixels than can fit into the rest of current scanline, the redundant data is
+to be ignored. (???)
+
+
+   If you have any questions regarding this document, or have found errors,
+mistakes or inaccuracies, please do not hesitate to email me to
+abel@krasu.ru or a234238@chat.ru
+

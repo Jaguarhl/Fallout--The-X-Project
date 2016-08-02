@@ -1,0 +1,116 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lua5.1_lib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Jag\LOCALS~1\Temp\RSP277.tmp" with contents
+[
+/nologo /MD /W3 /GR /GX /O2 /I "../include" /Fp"../obj/lua5.1_lib/Release/lua5.1_lib.pch" /YX /Fo"../obj/lua5.1_lib/Release/" /Fd"../obj/lua5.1_lib/Release/" /FD /c 
+"F:\Projects\Game Projects\FXP\lua5.1\src\lapi.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lcode.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\ldebug.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\ldo.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\ldump.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lfunc.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lgc.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\llex.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lmem.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lobject.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lopcodes.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lparser.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lstate.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lstring.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\ltable.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\ltm.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lundump.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lvm.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lzio.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lauxlib.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lbaselib.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\ldblib.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\liolib.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lmathlib.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\loslib.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\ltablib.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\lstrlib.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\loadlib.c"
+"F:\Projects\Game Projects\FXP\lua5.1\src\linit.c"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Jag\LOCALS~1\Temp\RSP277.tmp" 
+Creating temporary file "D:\DOCUME~1\Jag\LOCALS~1\Temp\RSP278.tmp" with contents
+[
+/nologo /out:"../lib/static\lua5.1_lib.lib" 
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lapi.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lcode.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\ldebug.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\ldo.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\ldump.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lfunc.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lgc.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\llex.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lmem.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lobject.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lopcodes.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lparser.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lstate.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lstring.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\ltable.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\ltm.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lundump.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lvm.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lzio.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lauxlib.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lbaselib.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\ldblib.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\liolib.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lmathlib.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\loslib.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\ltablib.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\lstrlib.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\loadlib.obj"
+"\Projects\Game Projects\FXP\lua5.1\obj\lua5.1_lib\Release\linit.obj"
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\Jag\LOCALS~1\Temp\RSP278.tmp"
+<h3>Output Window</h3>
+Compiling...
+lapi.c
+lcode.c
+ldebug.c
+ldo.c
+ldump.c
+lfunc.c
+lgc.c
+llex.c
+lmem.c
+lobject.c
+lopcodes.c
+lparser.c
+lstate.c
+lstring.c
+ltable.c
+ltm.c
+lundump.c
+lvm.c
+lzio.c
+lauxlib.c
+lbaselib.c
+ldblib.c
+liolib.c
+lmathlib.c
+loslib.c
+ltablib.c
+lstrlib.c
+loadlib.c
+linit.c
+Creating library...
+
+
+
+<h3>Results</h3>
+lua5.1_lib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

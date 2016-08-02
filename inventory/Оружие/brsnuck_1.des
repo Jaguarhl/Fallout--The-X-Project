@@ -1,0 +1,9 @@
+[Main]
+Type=1
+DmgType=1
+Title= астет
+Description=ѕрочный кастет, изготовленный из стали. «ащищает руку и обеспечивает больший урон при рукопашном бое.
+Cost=40
+MinEffect=2
+MaxEffect=4
+Bonus=0

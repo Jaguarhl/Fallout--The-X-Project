@@ -1,0 +1,9 @@
+[General]
+Name=крот
+Type=mole
+Skill=85
+HP=25
+AC=0
+AP=8
+Weapon=mole
+

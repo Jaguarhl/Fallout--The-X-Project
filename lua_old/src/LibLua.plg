@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LibLua - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP38A.tmp" with contents
+[
+/nologo /MD /W4 /GX /O2 /I "..\include" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fo"..\obj/" /Fd"..\obj/" /FD /c 
+"E:\Projects\Game Projects\FXP\lua\src\lapi.c"
+"E:\Projects\Game Projects\FXP\lua\src\lcode.c"
+"E:\Projects\Game Projects\FXP\lua\src\ldebug.c"
+"E:\Projects\Game Projects\FXP\lua\src\ldo.c"
+"E:\Projects\Game Projects\FXP\lua\src\ldump.c"
+"E:\Projects\Game Projects\FXP\lua\src\lfunc.c"
+"E:\Projects\Game Projects\FXP\lua\src\lgc.c"
+"E:\Projects\Game Projects\FXP\lua\src\llex.c"
+"E:\Projects\Game Projects\FXP\lua\src\lmem.c"
+"E:\Projects\Game Projects\FXP\lua\src\lobject.c"
+"E:\Projects\Game Projects\FXP\lua\src\lopcodes.c"
+"E:\Projects\Game Projects\FXP\lua\src\lparser.c"
+"E:\Projects\Game Projects\FXP\lua\src\lstate.c"
+"E:\Projects\Game Projects\FXP\lua\src\lstring.c"
+"E:\Projects\Game Projects\FXP\lua\src\ltable.c"
+"E:\Projects\Game Projects\FXP\lua\src\ltests.c"
+"E:\Projects\Game Projects\FXP\lua\src\ltm.c"
+"E:\Projects\Game Projects\FXP\lua\src\lundump.c"
+"E:\Projects\Game Projects\FXP\lua\src\lvm.c"
+"E:\Projects\Game Projects\FXP\lua\src\lzio.c"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP38A.tmp"" 
+Creating temporary file "D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP38B.tmp" with contents
+[
+/nologo /out:"..\bin\LibLua.lib" 
+"\Projects\Game Projects\FXP\lua\obj\lapi.obj"
+"\Projects\Game Projects\FXP\lua\obj\lcode.obj"
+"\Projects\Game Projects\FXP\lua\obj\ldebug.obj"
+"\Projects\Game Projects\FXP\lua\obj\ldo.obj"
+"\Projects\Game Projects\FXP\lua\obj\ldump.obj"
+"\Projects\Game Projects\FXP\lua\obj\lfunc.obj"
+"\Projects\Game Projects\FXP\lua\obj\lgc.obj"
+"\Projects\Game Projects\FXP\lua\obj\llex.obj"
+"\Projects\Game Projects\FXP\lua\obj\lmem.obj"
+"\Projects\Game Projects\FXP\lua\obj\lobject.obj"
+"\Projects\Game Projects\FXP\lua\obj\lopcodes.obj"
+"\Projects\Game Projects\FXP\lua\obj\lparser.obj"
+"\Projects\Game Projects\FXP\lua\obj\lstate.obj"
+"\Projects\Game Projects\FXP\lua\obj\lstring.obj"
+"\Projects\Game Projects\FXP\lua\obj\ltable.obj"
+"\Projects\Game Projects\FXP\lua\obj\ltests.obj"
+"\Projects\Game Projects\FXP\lua\obj\ltm.obj"
+"\Projects\Game Projects\FXP\lua\obj\lundump.obj"
+"\Projects\Game Projects\FXP\lua\obj\lvm.obj"
+"\Projects\Game Projects\FXP\lua\obj\lzio.obj"
+]
+Creating command line "link.exe -lib @"D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP38B.tmp""
+<h3>Output Window</h3>
+Compiling...
+lapi.c
+lcode.c
+ldebug.c
+ldo.c
+ldump.c
+lfunc.c
+lgc.c
+llex.c
+lmem.c
+lobject.c
+lopcodes.c
+lparser.c
+lstate.c
+lstring.c
+ltable.c
+ltests.c
+ltm.c
+lundump.c
+lvm.c
+lzio.c
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+LibLua.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

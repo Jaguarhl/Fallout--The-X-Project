@@ -1,0 +1,35 @@
+LIBRARY  LuaLib
+DESCRIPTION "Lua standard libraries"
+VERSION 5.0
+
+EXPORTS
+	luaL_openlib
+	luaL_getmetafield
+	luaL_callmeta
+	luaL_typerror
+	luaL_argerror
+	luaL_checklstring
+	luaL_optlstring
+	luaL_checknumber
+	luaL_optnumber
+	luaL_checkstack
+	luaL_checktype
+	luaL_checkany
+	luaL_newmetatable
+	luaL_getmetatable
+	luaL_checkudata
+	luaL_where
+	luaL_error
+	luaL_findstring
+	luaL_ref
+	luaL_unref
+	luaL_getn
+	luaL_setn
+	luaL_loadfile
+	luaL_loadbuffer
+	luaL_buffinit
+	luaL_prepbuffer
+	luaL_addlstring
+	luaL_addstring
+	luaL_addvalue
+	luaL_pushresult

@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: core - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP238.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\Projects\Game Projects\FXP\lua\src\lua.c"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP238.tmp"" 
+Creating temporary file "D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP239.tmp" with contents
+[
+/nologo /out:"Debug\core.lib" 
+".\Debug\StdAfx.obj"
+".\Debug\lapi.obj"
+".\Debug\lcode.obj"
+".\Debug\ldebug.obj"
+".\Debug\ldo.obj"
+".\Debug\ldump.obj"
+".\Debug\lfunc.obj"
+".\Debug\llex.obj"
+".\Debug\lmem.obj"
+".\Debug\lobject.obj"
+".\Debug\lopcodes.obj"
+".\Debug\lparser.obj"
+".\Debug\lstate.obj"
+".\Debug\lstring.obj"
+".\Debug\ltable.obj"
+".\Debug\ltests.obj"
+".\Debug\ltm.obj"
+".\Debug\lundump.obj"
+".\Debug\lvm.obj"
+".\Debug\lzio.obj"
+".\Debug\lua.obj"
+]
+Creating command line "link.exe -lib @"D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP239.tmp""
+<h3>Output Window</h3>
+Compiling...
+lua.c
+Creating library...
+
+
+
+<h3>Results</h3>
+core.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

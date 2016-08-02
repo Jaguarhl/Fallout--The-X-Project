@@ -1,0 +1,152 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "DLLLua"=".\src\DLLLua.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LibLua
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DLLLua+Lib"=".\src\DLLLua+Lib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LibLua
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name LibLuaLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DLLLuaLib"=".\src\lib\DLLLuaLib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LibLuaLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DLLLua
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "LibLua"=".\src\LibLua.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "LibLua+CRT"=".\src\LibLua+CRT.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "LibLuaLib"=".\src\lib\LibLuaLib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "LibLuaLib+CRT"=".\src\lib\LibLuaLib+CRT.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Lua"=".\src\Lua\Lua.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LibLua
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name LibLuaLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "LuaC"=".\src\luac\LuaC.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name LibLua
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name LibLuaLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

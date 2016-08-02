@@ -1,0 +1,14 @@
+[General]
+Light=8
+XSize=3
+YSize=6
+
+[Enemy1]
+Type=mole
+X=-1
+Y=1
+
+[Enemy2]
+Type=rat
+X=1
+Y=3

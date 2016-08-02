@@ -1,0 +1,104 @@
+//
+// VERSION.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+#include <winver.h>
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+// For finer versionning, we should make FILEVERSION and FileVersion values
+// dependent of the VER_LUA* values.
+// Currently, they are all updated simultenaously, so it is not yet mandatory.
+
+#ifdef VER_LUA_EXE
+#define VER_FILE_DESC	"Lua Interpreter\0"
+#define VER_FILE_NAME	"Lua.exe\0"
+#define VER_FILE_TYPE	VFT_APP
+#endif	// VER_LUA
+
+#ifdef VER_LUA_C_EXE
+#define VER_FILE_DESC	"Lua Compiler\0"
+#define VER_FILE_NAME	"LuaC.exe\0"
+#define VER_FILE_TYPE	VFT_APP
+#endif	// VER_LUA
+
+#ifdef VER_LUA_DLL
+#define VER_FILE_DESC	"Lua DLL\0"
+#define VER_FILE_NAME	"Lua.dll\0"
+#define VER_FILE_TYPE	VFT_DLL
+#endif	// VER_LUA
+
+#ifdef VER_LUALIB_DLL
+#define VER_FILE_DESC	"Lua Lib DLL\0"
+#define VER_FILE_NAME	"LuaLib.dll\0"
+#define VER_FILE_TYPE	VFT_DLL
+#endif	// VER_LUA
+
+#ifdef VER_LUA_LIB_DLL
+#define VER_FILE_DESC	"Lua+Lib DLL\0"
+#define VER_FILE_NAME	"Lua+Lib.dll\0"
+#define VER_FILE_TYPE	VFT_DLL
+#endif	// VER_LUA
+
+1 VERSIONINFO
+FILEVERSION		5,0,0,0
+PRODUCTVERSION	5,0,0,0
+
+FILEFLAGSMASK	VS_FF_DEBUG // | VS_FF_PATCHED | VS_FF_PRERELEASE | VS_FF_PRIVATEBUILD | VS_FF_SPECIALBUILD
+#ifdef _DEBUG
+FILEFLAGS		VS_FF_DEBUG
+#else
+FILEFLAGS		0x0L
+#endif
+#ifdef _WIN32
+FILEOS			VOS__WINDOWS32
+#else	// _WIN32
+FILEOS			VOS__WINDOWS16
+#endif	// _WIN32
+FILETYPE		VER_FILE_TYPE
+FILESUBTYPE		0x0L
+
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+		BLOCK "040904E4"	// US English, Multilingual
+        BEGIN
+            VALUE "Comments", "Lua - An Extensible Extension Language\0"
+            VALUE "CompanyName", "Tecgraf, PUC-Rio\0"
+            VALUE "FileDescription", VER_FILE_DESC
+            VALUE "FileVersion", "5.0.00\0"
+            VALUE "InternalName", "Lua\0"
+            VALUE "LegalCopyright", "Copyright © 1994-2003 Tecgraf, PUC-Rio\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", VER_FILE_NAME
+            VALUE "ProductName", "Lua\0"
+            VALUE "ProductVersion", "5.0\0"
+//			VALUE "PrivateBuild", "\0"
+//			VALUE "SpecialBuild", "\0"
+			// Non standard info values
+            VALUE "URL", "http://www.lua.org/\0"
+            VALUE "E-MAIL", "lua@tecgraf.puc-rio.br\0"
+            VALUE "AUTHORS", "W. Celes, R. Ierusalimschy & L. H. de Figueiredo\0"
+            VALUE "FROM", "Projects and binaries by P. Lhoste: http://jove.prohosting.com/~philho/\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+		VALUE "Translation", 0x409, 1252
+    END
+END
+
+#endif    // !_MAC
+
+/////////////////////////////////////////////////////////////////////////////

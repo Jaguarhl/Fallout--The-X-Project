@@ -1,0 +1,10 @@
+[General]
+Light=8
+XSize=3
+YSize=6
+
+[Enemy1]
+Type=rat
+X=-2
+Y=1
+

@@ -1,0 +1,22 @@
+Lua 5.0 Visual C++ 6 project files
+
+Lua.dsw                   -- Lua workspace
+etc\Lua.ico               -- Standard Lua icon
+etc\Lua.rc                -- Resource file, for the icon and to include LuaVersion.rc2
+etc\LuaVersion.rc2        -- Auxiliary resource file, for version information
+etc\Lua.def               -- Definition of exported functions for Lua.dll
+etc\LuaLib.def            -- Definition of exported functions for LuaLib.dll
+etc\Lua+Lib.def           -- Definition of exported functions for Lua+Lib.dll
+src\LibLua.dsp            -- Project for generating the library of Lua (LibLua.lib)
+                          -- (/MD version: multithread DLL, resulting binary uses MSVCRT.dll)
+src\LibLua+CRT.dsp        -- Project for generating the library of Lua (LibLua+CRT.lib)
+                          -- (/MT version: multithread, resulting binary includes CRT code)
+src\lib\LibLuaLib.dsp     -- Project for generating the library of Lua standard library (LibLuaLib.lib)
+                          -- (/MD version: multithread DLL, resulting binary uses MSVCRT.dll)
+src\lib\LibLuaLib+CRT.dsp -- Project for generating the library of Lua standard library (LibLuaLib+CRT.lib)
+                          -- (/MT version: multithread, resulting binary includes CRT code)
+src\DLLLua.dsp            -- Project for Lua.dll
+src\DLLLua+Lib.dsp        -- Project for Lua+Lib.dll
+src\lib\DLLLuaLib.dsp     -- Project for LuaLib.dll
+src\lua\Lua.dsp           -- Project for Lua.exe
+src\lua\LuaC.dsp          -- Project for LuaC.exe

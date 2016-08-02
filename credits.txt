@@ -1,0 +1,901 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fallout: The X-Project
+
+
+ДИЗАЙН И СЮЖЕТ
+Дмитрий Карцев
+
+
+ПРОГРАММИРОВАНИЕ
+Дмитрий Карцев
+
+СКРИПТОВАНИЕ
+Дмитрий Карцев
+
+
+ГРАФИКА
+
+художники
+Константин Володин
+Сергей Станчев
+
+обработка графики
+Дмитрий Карцев
+
+
+ВИДЕО
+
+художники
+Константин Володин
+Сергей Станчев
+
+обработка видео
+Дмитрий Карцев
+Константин Володин
+
+
+АУДИО
+Константин Петухов
+
+
+ТЕСТИРОВАНИЕ
+Антон Немнюгин
+Александр Юдин
+
+
+ИСПОЛЬЗОВАНА МУЗЫКА
+Prodigy - Climbatize
+Prodigy & R.A.T.M. - One Man Army
+Биопсихоз - 2л$%О'№у337!
+
+
+ИСПОЛЬЗОВАНА ГРАФИКА
+Fallout
+Fallout 2
+Fallout Tactics
+
+
+ИСПОЛЬЗОВАНЫ ЗВУКИ
+Fallout
+Fallout Tactics
+http://www.soundsnap.com/
+
+
+ИСПОЛЬЗОВАНЫ ВИДЕОФРАГМЕНТЫ
+к\ф На последнем берегу
+а\ф Ghost in the Shell
+
+
+СПАСИБО
+Юрий Скворцов
+Александр Юдин
+Антон Немнюгин
+Forest
+Macho
+Hamster за Fallout Inventory
+Chris Avellone за Библию Fallout
+Hunter за перевод Библии Fallout
+http://www.fallout.ru за собранные в одном месте материалы
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fallout
+
+
+ПРОГРАММИРОВАНИЕ
+
+ведущий программист
+Tim Cain
+Chris Jones
+
+программисты
+Jesse L. Reynolds
+Kevin Weatherman
+Nick Kesting
+Robert Hertenstein 2
+Jess Heinig
+Jason Taylor
+
+программист mac
+Tim Hume
+
+дополнительное программирование
+Mark Harrison (Lizard Byte)
+John Price
+Chris DeSalvo
+Mark Murakami
+Dan Spitzley
+Guido Henkel
+Michael Bernstein
+Thomas French
+
+технология видеороликов
+Paul Edelstein
+
+инсталлятор / автозапуск
+Darren Monahan
+
+
+ГРАФИКА
+
+графический директор
+Leonard Boyarsky
+
+ведущие художники
+Jason Anderson
+Leonard Boyarsky
+Gary Platner
+
+художники
+Robert Collier
+Michael Dean
+Tramell Ray Isaac
+Eddie Rainwater
+Scott Rodenhizer
+Sharon Shellman
+
+дополнительная графика
+Peter Kroko
+Justin Sweet
+Joseph Cesario
+Cheryl Austin
+Jay Esparza (Tachyon)
+Geoff Gregor
+Arlene Sommers
+George Almond
+Erik Jamison
+Helena Wickberg
+James Doyle (Apples Animation)
+Scott Rodenhizer
+Tony Postma
+
+
+
+ДИЗАЙН
+
+ведущий дизайнер
+Chris Taylor
+
+дизайнеры
+David Hendee
+Scott Bennie
+Brian Freyermuth
+Scott Campbell
+
+технический дизайнер
+Scott Everts
+
+дополнительный дизайн
+Robert Hertenstein 2
+Jess Heinig
+Nick Kesting
+Tim Cain
+Leonard Boyarsky
+Jason Anderson
+Fred Hatch
+Evan Chantland
+Erick Lujan
+Dennis Presnell
+Feargus Urquhart
+
+дизайн / диалоги
+Mark O'Green
+
+дизайн оригинальной игры
+Tim Cain
+Leonard Boyarsky
+Jason Anderson
+Jason Taylor
+Scott Campbell
+
+
+
+ПРОИЗВОДСТВО
+
+продюсер
+Tim Cain
+
+помощники продюсера
+Fred Hatch
+
+директор отделения
+Feargus Urquhart
+
+помощник директора отделения
+Jeremy Barnes
+
+продюсер оригинальной игры
+Tom Decker
+
+помощник по производству
+Jason G. Suinn
+
+monkey boy
+Mike "Paco" Greene
+
+помощник по mac-платформе
+Chris Benson
+
+
+
+КОНТРОЛЬ КАЧЕСТВА
+
+директор по контролю качества
+Chad Allison
+
+менеджеры КК
+Colin Totman
+
+старшие тестеры РС-версии
+Ron Hodge
+Greg "Moose" Baumeister
+
+тестеры РС-версии
+Shanna SanPaolo
+Evan Chantland
+Ed Hyland
+Steve Reed
+James Chung
+Kaycee Vardaman
+Bill Field
+Richard Barker
+Rene Hakiki
+Erick Lujan
+Matt Kaupa
+Steve Victory
+Scot Humphreys
+Tim Anderson
+Darrell Jones
+
+старшие тестеры Mac-версии
+Jim Dodds
+Matt Murakami
+Steve McLafferty
+
+тестеры Mac-версии
+Adam Chaney
+Dennis Presnell
+Savina Greene
+Kaycee Vardaman
+Scot Humphreys
+Mike Krueger
+Matt Golembiewski
+
+менеджер совместимости ИТ
+Bill Delk
+Steve Cabiness
+
+старший техник по совместимости
+Phuong Nguyen
+
+техники по совместимости
+Marc Duran
+Dan Forsyth
+Derek Gibbs
+Aaron Olalz
+John Parker
+
+
+
+АУДИО
+
+аудио-директор
+Charles Deenen
+
+главный звукорежиссер
+Craig Duman
+
+background TV music
+Ronald Valdez
+
+обработка звука
+Dave West
+
+cinematics soundeffects
+West Productions
+
+foley artists
+Doug Turner
+Gary Murello
+Larry Peacock
+
+foley editor
+Caron Weidner
+
+foley mixer
+Debby Ruby
+
+foley mixer/artist
+Cecilia Perna
+
+foley recorded at
+West Productions
+
+foley supervision
+Charles Deenen
+Larry Peacock
+
+FX editor
+Michael Dickeson
+
+music by
+Mark Morgan
+for
+Four Bars Entertainment
+
+intro re-recording mixer
+Charles Deenen
+
+music supervisor
+Brian Luzietti
+
+sound FX librarians
+Doug Rappaport
+Sergio Bustamante II
+Ron Valdez
+
+sound FX design
+Charles Deenen
+Gregory Allen
+Larry Peacock
+EFX
+Weddington
+Caron Weidner
+
+voice editors
+Doug Rappaport
+Sergio Bustamante II
+
+voice producer
+Fred Hatch
+
+voice recording engineer
+Paul Hurtubise
+
+voice supervisor
+Chris Borders
+
+voice talent coordination
+Julie Morgavi
+
+voice dialogue recorded at
+Hollywood Recording Services
+Hollywood, CA
+
+voice direction
+Jamie Thomason
+
+
+FEATURING THE VOICES OF
+
+Charlie Adler
+Harold
+
+Richard Dean Anderson
+Killian
+
+Jeff Bennett
+Loxley
+
+Clancy Brown
+Rhombus
+
+Jim Cummings
+Set, Gizmo, The Master
+
+Keith David
+Decker
+
+Brad Garrett
+Harry
+
+Tony Jay
+The Lieutenant
+
+Tress MacNeille
+Jain
+
+Ken Mars
+Overseer
+
+Richard Moll
+Cabbot
+
+Ron Perlman
+Butch Harris, Narrator
+
+CCH Pounder
+Vree
+
+Pam Segall
+Nicole
+
+Tony Shalub
+Aradesh
+
+Kath Soucie
+Laura, The Master
+
+Cree Summer
+Tandi
+
+David Warner
+Morpheus
+
+Frank Welker
+Maxson
+
+additional voice work by
+Max the Dog
+
+
+
+"Maybe"
+Performed by Ink Spots
+Courtesy of MCA Records
+By Arrangement with Universial Music Special Markets, Inc.
+
+"MAYBE"
+Written by Allan Flynn and Frank Madden
+Used by permission of EMI Robbins Catalog Inc. (ASCAP)
+
+WARNING: It is a violation of Federal Copyright Law
+to copy, duplicate or reproduce this Program or any
+portions of this Program without the express written
+permission of the copyright owner.
+
+
+МАРКЕТИНГ
+
+PR-менеджер
+Genevieve Ostergard
+
+директор по маркетингу
+Paul Sackman
+
+менеджеры по маркетингу
+Mike Markin
+Craig Owens
+Michael Courtney
+
+помощник менеджера по маркетингу
+Tod Mack
+
+менеджер по логистике
+Thom Dohner
+
+
+
+
+Thanks to: Scott Everts for contributing above and beyond the
+call of duty to the Quotes File, Bomberman, Quake, Diablo,
+Warcraft II, various movie soundtracks, Brian Eno, the soda
+fridge (thanks Gus & Rusty!), the Spirit of Christmas
+(Go Santa!), Demo the cat, Nicol, Tracy, Mary & Adam, Lisa
+(for moral support), Jamal, T-Ray's Mom, the two Donalds,
+Teresa Brooks, Zeb Cook, Chris Avellone, Lunch Money, The Lunch
+Court, Weez, Weaz, Irvine Spectrum, Wiz War, Dragon Dice, B5,
+X-Files, Xena, Buffy, The Simpsons, ER, Jeepin' and
+the Last Minute Talking Dog for finding that damn bug!
+
+Special thanks to the Fallout webpage bulletin board members
+for comments, suggestions and bug reports about the demo.
+Your feedback was appreciated!
+
+
+
+
+
+
+
+
+
+
+
+
+Fallout 2
+
+
+ПРОГРАММИРОВАНИЕ
+
+ведущий программист
+Jesse Reynolds
+
+программисты
+Chris Jones
+Nick Kesting
+Robert Hertenstein 2
+Thomas French
+Chris Holland
+Dan Spitzley
+
+дополнительное программирование
+Tim Cain
+John Price
+Michael Bernstein
+
+технология видеороликов
+Paul Edelstein
+
+инсталлятор / автозапуск
+Darren Monahan
+
+
+ГРАФИКА
+
+ведущие художники
+Gary Platner
+Tramell Ray Isaac
+
+художники
+Robert Collier
+Jeff McAteer
+Brian Menze
+Scott Rodenhizer
+
+дополнительная графика
+Aaron Brown
+Peter Kroko
+Michael Sean McCarthy
+Chad Moore
+Eddie Rainwater
+Justin Sweet
+Vance Kovacs
+Tim Donley
+
+художники-практиканты
+Charles M. Gregory
+Daniel Jacobs
+John Jacobs
+Karel Jacobs
+Christopher Jones
+Benc Orpak
+Adoni Torres
+
+графика оригинальной игры
+Jason Anderson
+Leonard Boyarsky
+Michael Dean
+Sharon Shellman
+
+
+ДИЗАЙН
+
+ведущие дизайнеры
+Feargus Urquhart
+Matthew J. Norton
+
+дизайнеры
+Jason G. Suinn
+John Deiley
+Chris Avellone
+David "Zeb" Cook
+Dave Hendee
+Colin McComb
+
+дизайнер техники
+Scott Everts
+
+дизайнеры уровней
+John Deiley
+Scott Everts
+Jason G. Suinn
+
+дополнительный дизайн
+Robert Hertenstein 2
+Nick Kesting
+Fred Hatch
+
+дизайн / диалоги
+Mark O'Green
+
+дизайн оригинальной игры
+Tim Cain
+Leonard Boyarsky
+Jason Anderson
+Jason Taylor
+Scott Campbell
+
+игровая система SPECIAL
+Chris Taylor
+Tim Cain
+Jess Heinig
+Feargus Urquhart
+
+
+ПРОИЗВОДСТВО
+
+директор отделения
+Feargus Urquhart
+
+продюсеры
+Eric Demilt
+Feargus Urquhart
+
+помощники продюсеров
+Fred Hatch
+Douglas Avery
+
+помощник директора отделения
+Jeremy Barnes
+
+координаторы синхронизации губ
+Jason G. Suinn
+Dave Hendee
+
+художники синхронизации губ
+Douglas Avery
+Chris Benson
+David "Zeb" Cook
+Jacob Devore
+Kenneth Lee
+Colin McComb
+
+
+
+КОНТРОЛЬ КАЧЕСТВА
+
+директор по контролю качества
+Chad Allison
+
+менеджеры КК
+Steve Victory
+Colin Totman
+
+супервайзеры проекта РС-версии
+Greg "Moose" Baumeister
+Steve McLafferty
+Darrell Jones
+
+старшие тестеры РС-версии
+Dennis Presnell
+Chad Nicholas
+Dave Simon
+
+тестеры РС-версии
+Ed Hyland
+Dany Martinez
+WR Saunders
+Rodney Smith
+Tony Piccoli
+David Maldonado
+Dan Levin
+Eric Pribish
+Scott Warner
+Derek Johnson
+Tim Anderson
+Primo Pulanco
+Jeremy Ray
+Jeremy Seely
+Henry Lee
+Scott Humphreys
+
+менеджер совместимости ИТ
+Frank Pimentel
+
+старший техник по совместимости
+Bill Delk
+
+техник по совместимости ИТ
+Tom Quast
+
+администратор БД КК
+Steve Cabiness
+
+техники по совместимости
+Derek Gibbs
+John Parker
+Ed Robles
+Louie Iturzaeta
+
+
+
+АУДИО
+
+главный звукорежиссер
+Charles Deenen
+
+обработка звука
+Craig Duman
+
+звукорежиссер озвучания
+Jamie Thomason
+
+координатор озвучания
+Julie Morgavi
+
+супервайзер озвучания
+Chris Borders
+
+звукорежиссеры
+Frank Szick
+Kevin Frayser
+Ron Valdez
+
+голоса записаны на студии Marc Graue
+
+дизайн звука
+Paul Menichini
+Tim Walston
+
+дизайн звука в роликах
+David Farmer
+
+микширование роликов
+Charles Deenen
+
+смикшировано в Dolby [TM] Surround на студии Interplay
+
+администратор студии
+Gloria Soto
+
+дополнительный дизайн звука
+Larry Peacock
+Weddington
+EFX
+Eight Ball Sound
+Charles Deenen
+
+звукорежиссеры озвучания
+Wes Smith
+Julian Cook
+студия Marc Graue
+
+композитор
+Mark Morgan
+для
+Four Bars Intertainment
+и
+Rick Jackson
+
+продюсер аудио
+Fred Hatch
+
+
+РОЛИ ОЗВУЧИВАЛИ
+
+Charlie Adler
+Гарольд
+
+Ron Perlman
+диктор
+
+Dwight Schultz
+Хакунин
+
+Jason Marsden
+Майрон
+
+Cree Summer
+Линетт
+
+Kevin Michael Richardson
+Связист Анклава
+
+Peter Jason
+Сержант Анклава
+
+Peter Jason
+Охранник у ворот
+
+Flo DiRe
+Старейшая
+
+Tress MacNeille
+Танди
+
+Greg Eagles
+Сулик
+
+Michael Dorn
+Маркус
+
+Michael Dorn
+Фрэнк Хорриган
+
+Jeffrey Jones
+Президент
+
+
+
+"A KISS TO BUILD A DREAM ON"
+Поет Луи Армстронг
+Запись предоставлена GRP Records
+по лицензии UNIVERSAL MUSIC SPECIAL MARKETS
+
+"A KISS TO BUILD A DREAM ON"
+Авторы: Bert Kalmer, Harry Ruby и Oscar Hammerstein II
+(C) 1935, 1951, рест. 1963, 1979 METRO GOLDWYN MAYER, INC.
+Правообладатель: EMI CATALOGUE PARTNERSHIP
+Все права контролируются EMI MILLER CATALOG INC.
+Все права защищены. Охраняется международными законами.
+Используется с разрешения.
+
+ВНИМАНИЕ: Копирование, дублирование и воспроизведение
+настоящей программы и любых ее частей без явного
+письменного разрешения правообладателей является
+нарушением законодательства об авторском праве.
+
+
+ВИДЕО
+
+услуги видео оказаны:
+Dave Cravens
+Stephen Miller
+Bill Stoudt
+Dan Williams
+
+
+МАРКЕТИНГ
+
+директор по маркетингу
+Paul Sackman
+
+менеджеры по маркетингу
+Mike Markin
+Greg Peterson
+
+помощник менеджера по маркетингу
+Greg Bauman
+
+PR-менеджер
+Krys Card
+
+менеджеры по логистике
+Thom Dohner
+Paul Naftalis
+
+
+
+
+Благодарности
+(Dave H.) Команде Unwashed Villagers, семье Dyer,
+Jamba Juice, The Tick, Southpark; (Chris A.) "половине",
+Thuy Dang, Eileen Suh, маме и папе Avellone;  (t.ray)
+моей маме, моему папе, моему сыну, моему брату и всем
+поклонникам моего гения, купившим эту игру;  (Rob H.)
+Becky Warner и Billie Ryder;  (Matt N.) Моей дорогой
+DieMonika и нашему котяре;  (Jesse R.) "Памяти моего
+отца. Всю жизнь ты был для меня примером. Мне тебя всегда
+будет не хватать."
+
+Огромное спасибо:
+Участникам форумов Fallout и Fallout 2.
+Спасибо вам за ваши комментарии, предложения и за все!
+Сотрудникам видеогруппы Interplay, кто действительно
+работал не по обязанности, а с душой!
+

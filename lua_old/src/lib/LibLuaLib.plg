@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LibLuaLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP37F.tmp" with contents
+[
+/nologo /MD /W4 /GX /O2 /I ".." /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fo"..\..\obj/" /Fd"..\..\obj/" /FD /c 
+"E:\Projects\Game Projects\FXP\lua\src\lib\lauxlib.c"
+"E:\Projects\Game Projects\FXP\lua\src\lib\lbaselib.c"
+"E:\Projects\Game Projects\FXP\lua\src\lib\ldblib.c"
+"E:\Projects\Game Projects\FXP\lua\src\lib\lmathlib.c"
+"E:\Projects\Game Projects\FXP\lua\src\lib\loadlib.c"
+"E:\Projects\Game Projects\FXP\lua\src\lib\lstrlib.c"
+"E:\Projects\Game Projects\FXP\lua\src\lib\ltablib.c"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP37F.tmp"" 
+Creating temporary file "D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP380.tmp" with contents
+[
+/nologo /MD /W4 /GX /O2 /I ".." /I "..\..\include" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D USE_POPEN=1 /D popen=_popen /D pclose=_pclose /Fo"..\..\obj/" /Fd"..\..\obj/" /FD /c 
+"E:\Projects\Game Projects\FXP\lua\src\lib\liolib.c"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP380.tmp"" 
+Creating temporary file "D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP381.tmp" with contents
+[
+/nologo /out:"..\..\bin\LibLuaLib.lib" 
+"\Projects\Game Projects\FXP\lua\obj\lauxlib.obj"
+"\Projects\Game Projects\FXP\lua\obj\lbaselib.obj"
+"\Projects\Game Projects\FXP\lua\obj\ldblib.obj"
+"\Projects\Game Projects\FXP\lua\obj\liolib.obj"
+"\Projects\Game Projects\FXP\lua\obj\lmathlib.obj"
+"\Projects\Game Projects\FXP\lua\obj\loadlib.obj"
+"\Projects\Game Projects\FXP\lua\obj\lstrlib.obj"
+"\Projects\Game Projects\FXP\lua\obj\ltablib.obj"
+]
+Creating command line "link.exe -lib @"D:\DOCUME~1\¿ƒÃ»Õ»~1\LOCALS~1\Temp\RSP381.tmp""
+<h3>Output Window</h3>
+Compiling...
+lauxlib.c
+lbaselib.c
+ldblib.c
+lmathlib.c
+loadlib.c
+D:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\rpcasync.h(45) : warning C4115: '_RPC_ASYNC_STATE' : named type definition in parentheses
+lstrlib.c
+E:\Projects\Game Projects\FXP\lua\src\lib\lstrlib.c(376) : warning C4244: '=' : conversion from 'const int ' to 'char ', possible loss of data
+ltablib.c
+Generating Code...
+Compiling...
+liolib.c
+E:\Projects\Game Projects\FXP\lua\src\lib\liolib.c(717) : warning C4702: unreachable code
+Creating library...
+
+
+
+<h3>Results</h3>
+LibLuaLib.lib - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

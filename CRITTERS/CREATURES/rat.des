@@ -1,0 +1,9 @@
+[General]
+Name=крыса
+Type=rat
+Skill=95
+HP=15
+AC=0
+AP=8
+Weapon=rat
+

@@ -1,0 +1,12 @@
+[Main]
+Type=1
+DmgType=2
+Title=Самопал
+Description=Самодельное однозарядное ружье.
+Cost=200
+MinEffect=5
+MaxEffect=12
+Magazine=1
+Ammo=10
+Distance=20
+Bonus=0

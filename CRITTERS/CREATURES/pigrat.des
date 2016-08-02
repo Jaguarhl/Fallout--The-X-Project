@@ -1,0 +1,9 @@
+[General]
+Name=свиная крыса
+Type=pigrat
+Skill=90
+HP=20
+AC=0
+AP=7
+Weapon=pigrat
+

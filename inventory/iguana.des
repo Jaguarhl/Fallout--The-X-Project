@@ -1,0 +1,9 @@
+[Main]
+Type=5
+SType=1
+Title=Игуана на палочке
+Description=Запеченная в собственном соку игуана.
+Cost=20
+MinEffect=1
+MaxEffect=7
+Bonus=5
